@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(215, 227, 250);
+}
+
+
+h1 {
+text-align: center;
+font-family: sans-serif;
+
+}
+
+p {
+    letter-spacing: 3px;
+    font-size: 2em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+ .flex {
+
+    justify-content: space-evenly;
+    width: 100%;
+ }
+
+ .ed {
+     background-color: white;
+     width: 20%;
+     height: 200px;
+    box-shadow: 2px 2px 5px;
+    border-radius: 50%;
+    margin-left: 40%;
+ }
+
+ .ig1 img {
+   margin-left: 30%;
+   height: 150px;
+   width: 45%;
+   padding-top: 20px;
+    
+ }
+ figcaption {
+     font-family: 'Century Gothic';
+     text-align: center;
+ }
+
+ .ed2 {
+    background-color: white;
+    width: 30%;
+    height: 300px;
+   box-shadow: 2px 2px 5px;
+   border-radius: 50%;
+   margin-left: 35%;
+}
+
+.ig2 img {
+  margin-left: 25%;
+  height: 250px;
+  width: 55%;
+  padding-top: 30px;
+  border-radius: 25%;
+}
+  .ed3 {
+    background-color: white;
+    width: 40%;
+    height: 400px;
+   box-shadow: 2px 2px 5px;
+   border-radius: 50%;
+   margin-left: 30%;
+
+}
+
+.ig3 img {
+  height: 400px;
+  width: 100%;
+  border-radius: 50%;
+}
+.ed4 {
+    background-color: white;
+    width: 50%;
+    height: 500px;
+   box-shadow: 2px 2px 5px;
+   border-radius: 50%;
+   margin-left: 25%;
+   transform: translate2d(1.5 1.5)
+}
+.ed4:hover {
+  transition-duration: 3s;
+  height: 300px;
+  width: 40%;
+}
+
+.ig4 img {
+  height: 500px;
+  width: 100%;
+  border-radius: 50%;
+}
+.parent:hover span {
+    visibility: visible;  
+}
+
+span {
+  visibility: hidden;
+}
+   ul {
+    background-color:black;
+    height: 300px;
+    width:50%;
+    visi
+  }
+  ul li {
+    list-style-type:none;
+    
+  }
